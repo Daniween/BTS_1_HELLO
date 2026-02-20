@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTS SIO - Services Informatiques aux Organisations</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        header {
+            background: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+        }
+        
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        
+        .section {
+            background: white;
+            border-radius: 10px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+        
+        .section h2 {
+            color: #667eea;
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 0.5rem;
+        }
+        
+        .section p {
+            font-size: 1rem;
+            margin-bottom: 1rem;
+        }
+        
+        .specialites {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        
+        .specialite {
+            background: #f5f5f5;
+            padding: 1.5rem;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+        }
+        
+        .specialite h3 {
+            color: #667eea;
+            margin-bottom: 0.5rem;
+        }
+        
+        ul {
+            margin-left: 1.5rem;
+            margin-top: 0.5rem;
+        }
+        
+        li {
+            margin-bottom: 0.5rem;
+        }
+        
+        footer {
+            background: rgba(0, 0, 0, 0.7);
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 2rem;
+        }
+        
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.8rem;
+            }
+            
+            .specialites {
+                grid-template-columns: 1fr;
+            }
+            
+            .section {
+                padding: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🎓 BTS SIO</h1>
+        <p>Bac +2 en Services Informatiques aux Organisations</p>
+    </header>
+    
+    <div class="container">
+        <!-- Présentation -->
+        <section class="section">
+            <h2>Qu'est-ce que le BTS SIO ?</h2>
+            <p>
+                Le <strong>BTS Services Informatiques aux Organisations (SIO)</strong> est un diplôme d'État de niveau Bac +2 
+                qui forme des professionnels aux métiers de l'informatique. Il s'agit d'une formation courte et pratique 
+                qui prépare les étudiants à entrer rapidement dans le monde professionnel.
+            </p>
+            <p>
+                Ce diplôme est reconnu par l'État et offre une excellente alternative aux études universitaires classiques 
+                pour tous ceux qui souhaitent développer des compétences informatiques concrètes et opérationnelles.
+            </p>
+        </section>
+        
+        <!-- Objectifs -->
+        <section class="section">
+            <h2>Objectifs de la Formation</h2>
+            <ul>
+                <li>Acquérir des compétences en support informatique et en systèmes d'information</li>
+                <li>Maîtriser les technologies de l'information actuelles</li>
+                <li>Développer des capacités d'analyse et de résolution de problèmes</li>
+                <li>Apprendre à gérer les projets informatiques</li>
+                <li>Développer l'esprit d'équipe et la communication professionnelle</li>
+                <li>Préparer à l'intégration rapide dans une entreprise</li>
+            </ul>
+        </section>
+        
+        <!-- Spécialités -->
+        <section class="section">
+            <h2>Les Deux Spécialités</h2>
+            <div class="specialites">
+                <div class="specialite">
+                    <h3>🖥️ SISR - Solutions d'Infrastructure, Sécurité, Réseaux</h3>
+                    <p>
+                        Axée sur l'infrastructure informatique et la sécurité des systèmes.
+                    </p>
+                    <ul>
+                        <li>Mise en place de réseaux</li>
+                        <li>Administration de serveurs</li>
+                        <li>Sécurité informatique</li>
+                        <li>Support utilisateur niveau 2/3</li>
+                    </ul>
+                </div>
+                <div class="specialite">
+                    <h3>💻 SLAM - Solutions Logicielles et Applications Métier</h3>
+                    <p>
+                        Centrée sur le développement logiciel et les applications métier.
+                    </p>
+                    <ul>
+                        <li>Développement d'applications</li>
+                        <li>Bases de données</li>
+                        <li>Programmation web</li>
+                        <li>Gestion de projets agiles</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Débouchés -->
+        <section class="section">
+            <h2>Débouchés Professionnels</h2>
+            <p>Les titulaires du BTS SIO peuvent accéder à plusieurs métiers :</p>
+            <ul>
+                <li><strong>Administrateur réseau</strong> : Gère l'infrastructure informatique</li>
+                <li><strong>Technicien support informatique</strong> : Assiste les utilisateurs</li>
+                <li><strong>Développeur web</strong> : Crée des sites et applications web</li>
+                <li><strong>Développeur logiciel</strong> : Conçoit des applications</li>
+                <li><strong>Ingénieur de sécurité</strong> : Assure la protection des données</li>
+                <li><strong>Chef de projet informatique</strong> : Pilote les projets IT</li>
+                <li><strong>Consultant IT</strong> : Conseille les entreprises sur leurs systèmes informatiques</li>
+            </ul>
+        </section>
+        
+        <!-- Conditions d'accès -->
+        <section class="section">
+            <h2>Conditions d'Accès</h2>
+            <ul>
+                <li>Être titulaire d'un Bac (technologique ou général de préférence)</li>
+                <li>Ou posséder un diplôme français ou étrangèrement reconnu équivalent</li>
+                <li>Avoir une motivation pour l'informatique</li>
+                <li>Sélection sur dossier et entretien</li>
+            </ul>
+        </section>
+    </div>
+    
+    <footer>
+        <p>&copy; 2026 - BTS SIO | Formation aux Services Informatiques aux Organisations</p>
+    </footer>
+</body>
+</html>
